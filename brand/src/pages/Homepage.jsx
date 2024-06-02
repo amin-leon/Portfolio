@@ -9,8 +9,6 @@ import PlayButton from '../assets/styles/PlayButton.css';
 import { Typing } from '../helpers/Typing';
 
 
-
-
 function Homepage() {
   return (
       <div className="home-all bg-primary-main">
@@ -45,9 +43,7 @@ function Homepage() {
               </h1>
             </div>
             <div className="we-do flex justify-start items-center flex-col pt-4 text-textcolor-secondary">
-              <span>UI/UX Design</span>
-              <span>Wed Dev </span>
-              <span>Mobile Dev</span>
+              <p class="ux">Web  || Mobile || UI/UX Design</p>
             </div>
           </div>
         </div>
