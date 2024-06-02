@@ -6,21 +6,23 @@ import { CiInstagram } from "react-icons/ci";
 import { RiFacebookBoxLine } from "react-icons/ri";
 import { CiLinkedin } from "react-icons/ci";
 import PlayButton from '../assets/styles/PlayButton.css';
+import Scroll from '../assets/styles/Scroll.css';
 import { Typing } from '../helpers/Typing';
+import { PiMouseScroll } from "react-icons/pi";
 
 
 function Homepage() {
   return (
       <div className="home-all bg-primary-main">
         <Wrapper>
-        <div className="container grid grid-cols-2 gap-3 pt-24 pb-24 border-gray-50">
+        <div className="container grid grid-cols-2 gap-3 pt-24 pb-20 border-gray-50">
           <div className="secial-pic flex flex-wrap items-center justify-center flex-col gap-2">
             <div className="pic">
                 <div className="image">
                   <img src="https://images.unsplash.com/photo-1619947663603-9eac34f2230f?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="My pic" className='w-96 h-96 rounded-md'/>
                 </div>
             </div>
-            <div className="social">
+            <div className="social pt-5">
               <div className="social-play flex flex-col justify-center items-center gap-3">
                 <div className="video-play-icon">
                   <FaPlay /> 
@@ -46,6 +48,9 @@ function Homepage() {
               <p class="ux">Web  || Mobile || UI/UX Design</p>
             </div>
           </div>
+        </div>
+        <div className="scroll-icon flex justify-end items-center text-3xl text-textcolor-secondary cursor-pointer">
+          <PiMouseScroll />
         </div>
         </Wrapper>
       </div>
