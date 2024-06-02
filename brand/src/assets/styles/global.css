@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.video-play-icon{
+    width: 50px;
+    height: 50px;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid red;
+    cursor: pointer;
+    animation: zoomBorder 2s infinite;
+}
+@keyframes zoomBorder {
+    0% {
+      transform: scale(1);
+          }
+    50% {
+      transform: scale(1.2);
+      
+    }
+    100% {
+      transform: scale(1);
+    }
+  }

@@ -1,9 +1,19 @@
+import Wrapper from "../helpers/Wrapper";
+
 const AboutPage = () => {
   return (
-    <div>
-      <h1 className="text-2xl font-bold">About Page</h1>
-      <p>This is the about page.</p>
-    </div>
+    <Wrapper>
+      <div className="home-all">
+        <div className="container">
+          <div className="secial-pic"></div>
+          <div className="full-text-skills">
+            <span>ui/usx</span>
+            <span>Wed Dev</span>
+            <span>Mobile Dev</span>
+          </div>
+        </div>
+      </div>
+    </Wrapper>
   );
 };
 

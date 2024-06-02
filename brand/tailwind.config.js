@@ -7,15 +7,15 @@ module.exports = {
     extend: {
       colors: {
         primary: {
-          light: '#a6d4fa',
-          DEFAULT: '#2196f3',
-          dark: '#1769aa',
+          main: '#08182F',
         },
         secondary: {
-          light: '#ffb74d',
-          DEFAULT: '#ff9800',
-          dark: '#f57c00',
+          alertenative: '#091B34',
         },
+        textcolor: {
+          primary: "#f8fafc",
+          secondary: '#84858E'
+        }
       },
       screens: {
         'xs': '480px',
