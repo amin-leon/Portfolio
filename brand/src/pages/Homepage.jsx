@@ -18,8 +18,8 @@ function Homepage() {
         <div className="container grid grid-cols-2 gap-3 pt-24 pb-20 border-gray-50">
           <div className="secial-pic flex flex-wrap items-center justify-center flex-col gap-2">
             <div className="pic">
-                <div className="image">
-                  <img src="https://images.unsplash.com/photo-1619947663603-9eac34f2230f?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="My pic" className='w-96 h-96 rounded-md'/>
+                <div className="image border border-textcolor-primary w-[400px] h-[400px] relative">
+                  <img src="https://images.unsplash.com/photo-1619947663603-9eac34f2230f?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="My pic" className='w-96 h-96 rounded-md absolute -top-5 -left-5'/>
                 </div>
             </div>
             <div className="social pt-5">
