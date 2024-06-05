@@ -11,6 +11,7 @@ import { Typing } from '../helpers/Typing';
 import { PiMouseScroll } from "react-icons/pi";
 import Services from '../components/sections/Services';
 import Client from '../components/sections/Client';
+import Testimonials from '../components/sections/Testimonials';
 
 
 function Homepage() {
@@ -63,6 +64,9 @@ function Homepage() {
         </div>
         <div className="clients">
           <Client />
+        </div>
+        <div className="testimonials">
+          <Testimonials />
         </div>
     </div>
   )

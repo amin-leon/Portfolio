@@ -70,3 +70,15 @@
     background-position: center;
     background-size:cover;
 }
+
+/* testimonials */
+.testimonials-section{
+    height: 600px;
+    background-image: url(../images/HD-wallpaper-how-to-access-the-dark-web-minimal-programmer.jpg);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+}

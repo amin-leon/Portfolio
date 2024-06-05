@@ -29,17 +29,17 @@ function Services() {
             <Slider {...settings} className='pt-5'>
                     <div className="slide">
                         <div className="service-cards grid grid-cols-3 gap-4">
-                            <div className="cards h-96 flex justify-center items-center flex-col gap-3 bg-primary-main">
+                            <div className="cards h-96 flex justify-center items-center flex-col gap-3 bg-primary-main rounded-md">
                                 <div className="icon-image1">
                                 </div>
                                 <h1 className='font-bold text-textcolor-secondary'>Web Development</h1>
                             </div>
-                            <div className="cards h-96 flex justify-center items-center flex-col gap-3 bg-primary-main">
+                            <div className="cards h-96 flex justify-center items-center flex-col gap-3 bg-primary-main rounded-md">
                                 <div className="icon-image2">
                                 </div>
                                 <h1 className='font-bold text-textcolor-secondary'>Mobile App Development</h1>
                             </div>
-                            <div className="cards h-96 flex justify-center items-center flex-col gap-3 bg-primary-main">
+                            <div className="cards h-96 flex justify-center items-center flex-col gap-3 bg-primary-main rounded-md">
                                 <div className="icon-image3">
                                 </div>
                                 <h1 className='font-bold text-textcolor-secondary'>Graphic Design</h1>
@@ -48,17 +48,17 @@ function Services() {
                     </div>
                     <div className="slide">
                         <div className="service-cards grid grid-cols-3 gap-4">
-                            <div className="cards h-96 flex justify-center items-center flex-col gap-3 bg-primary-main">
+                            <div className="cards h-96 flex justify-center items-center flex-col gap-3 bg-primary-main rounded-md">
                                 <div className="icon-image4">
                                 </div>
                                 <h1 className='font-bold text-textcolor-secondary'>Web Services</h1>
                             </div>
-                            <div className="cards h-96 flex justify-center items-center flex-col gap-3 bg-primary-main">
+                            <div className="cards h-96 flex justify-center items-center flex-col gap-3 bg-primary-main rounded-md">
                                 <div className="icon-image5">
                                 </div>
                                 <h1 className='font-bold text-textcolor-secondary'>Cloud Computing</h1>
                             </div>
-                            <div className="cards h-96 flex justify-center items-center flex-col gap-3 bg-primary-main">
+                            <div className="cards h-96 flex justify-center items-center flex-col gap-3 bg-primary-main rounded-md">
                                 <div className="icon-image6">
                                 </div>
                                 <h1 className='font-bold text-textcolor-secondary'>Photographing</h1>

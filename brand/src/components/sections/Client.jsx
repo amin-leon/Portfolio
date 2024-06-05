@@ -24,7 +24,7 @@ function Client() {
                        <CiMedicalCase className="text-6xl text-textcolor-secondary"/>
                     </div>
                     <div className="number-desc">
-                        <h1 className="text-2xl font-bold text-textcolor-primary">10</h1>
+                        <h1 className="text-2xl font-bold text-textcolor-primary">10+</h1>
                         <p className="pt-2 text-textcolor-secondary">Project Done</p>
                     </div>
                 </div>
