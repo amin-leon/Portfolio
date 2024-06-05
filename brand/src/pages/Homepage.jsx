@@ -9,10 +9,12 @@ import PlayButton from '../assets/styles/PlayButton.css';
 import Scroll from '../assets/styles/Scroll.css';
 import { Typing } from '../helpers/Typing';
 import { PiMouseScroll } from "react-icons/pi";
+import Services from '../components/sections/Services';
 
 
 function Homepage() {
   return (
+    <div className="homepage">
       <div className="home-all bg-primary-main">
         <Wrapper>
         <div className="container grid grid-cols-2 gap-3 pt-24 pb-20 border-gray-50">
@@ -45,7 +47,7 @@ function Homepage() {
               </h1>
             </div>
             <div className="we-do flex justify-start items-center flex-col pt-4 text-textcolor-secondary">
-              <p class="ux">Web  || Mobile || UI/UX Design</p>
+              <p className="ux">Web  || Mobile || UI/UX Design</p>
             </div>
           </div>
         </div>
@@ -54,6 +56,11 @@ function Homepage() {
         </div>
         </Wrapper>
       </div>
+      {/* services */}
+        <div className="services">
+          <Services />
+        </div>
+    </div>
   )
 }
 

@@ -1,0 +1,72 @@
+.services-section{
+    height: 600px;
+    background-image: url(../images/services.jpg);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #08182fb7;
+    padding: 40px;
+}
+
+.services-cards {
+    display: grid;
+    grid-template-columns: 0.2fr 2.6fr 0.2fr;
+    gap: 20px;
+}
+/* services image */
+/* block 1 */
+.icon-image1{
+    background-image: url(../images/web-development.png);
+    height: 200px;
+    width: 200px;
+    background-position: center;
+    background-size:cover;
+}
+.icon-image2{
+    background-image: url(../images/app-development.png);
+    height: 200px;
+    width: 200px;
+    background-position: center;
+    background-size:cover;
+}
+.icon-image3{
+    background-image: url(../images/pantone.png);
+    height: 200px;
+    width: 200px;
+    background-position: center;
+    background-size:cover;
+}
+
+/* bllock 2 */
+.icon-image4{
+    background-image: url(../images/hosting-services.png);
+    height: 200px;
+    width: 200px;
+    background-position: center;
+    background-size:cover;
+}
+.icon-image5{
+    background-image: url(../images/scalable-computing.png);
+    height: 200px;
+    width: 200px;
+    background-position: center;
+    background-size:cover;
+}
+.icon-image6{
+    background-image: url(../images/camera.png);
+    height: 200px;
+    width: 200px;
+    background-position: center;
+    background-size:cover;
+}
