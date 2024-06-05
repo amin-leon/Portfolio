@@ -12,6 +12,7 @@ import { PiMouseScroll } from "react-icons/pi";
 import Services from '../components/sections/Services';
 import Client from '../components/sections/Client';
 import Testimonials from '../components/sections/Testimonials';
+import Subscribe from '../components/common/Subscribe';
 
 
 function Homepage() {
@@ -67,6 +68,9 @@ function Homepage() {
         </div>
         <div className="testimonials">
           <Testimonials />
+        </div>
+        <div className="subscribe">
+          <Subscribe />
         </div>
     </div>
   )
