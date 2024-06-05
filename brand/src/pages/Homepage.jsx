@@ -10,6 +10,7 @@ import Scroll from '../assets/styles/Scroll.css';
 import { Typing } from '../helpers/Typing';
 import { PiMouseScroll } from "react-icons/pi";
 import Services from '../components/sections/Services';
+import Client from '../components/sections/Client';
 
 
 function Homepage() {
@@ -59,6 +60,9 @@ function Homepage() {
       {/* services */}
         <div className="services">
           <Services />
+        </div>
+        <div className="clients">
+          <Client />
         </div>
     </div>
   )
