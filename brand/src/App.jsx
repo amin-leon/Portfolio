@@ -4,6 +4,7 @@ import AboutPage from './pages/AboutMe';
 import Layout from './components/layout/Layout';
 import './App.css';
 import ErrorPage from './errors/route-error/error-page';
+import Blogs from './components/sections/Blogs';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path="/aboutme" element={<AboutPage />} />
+          <Route path="/blogs" element={<Blogs />} />
           <Route path="/error"  errorElement={<ErrorPage />}/>
         </Routes>
       </Layout>
