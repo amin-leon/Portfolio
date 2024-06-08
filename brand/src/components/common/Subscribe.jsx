@@ -11,8 +11,8 @@ function Subscribe() {
               </div>
             </div>
             <div className="field-button flex justify-center items-center p-7">
-                <input type="text" placeholder="Type in your image" className="p-2 w-128 focus:outline-none" />
-                <button className="p-2 w-56 bg-transparent border border-textcolor-secondary text-textcolor-primary hover:bg-black">Subscribe</button>
+                <input type="text" placeholder="Type in your image" className="p-2 w-128 rounded-sm focus:outline-none" />
+                <button className="p-2 w-56 bg-transparent border border-textcolor-secondary rounded-sm text-textcolor-primary hover:bg-black">Subscribe</button>
             </div>
         </Wrapper>
     </div>

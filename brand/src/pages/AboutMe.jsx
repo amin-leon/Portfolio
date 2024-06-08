@@ -3,7 +3,7 @@ import Wrapper from "../helpers/Wrapper";
 const AboutPage = () => {
   return (
     <Wrapper>
-      <div className="home-all">
+      <div className="about-all">
         <div className="container">
           <div className="secial-pic"></div>
           <div className="full-text-skills">

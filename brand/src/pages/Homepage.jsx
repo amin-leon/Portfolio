@@ -1,10 +1,5 @@
 import Wrapper from '../helpers/Wrapper'
 import { FaPlay } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
-import { CiYoutube } from "react-icons/ci";
-import { CiInstagram } from "react-icons/ci";
-import { RiFacebookBoxLine } from "react-icons/ri";
-import { CiLinkedin } from "react-icons/ci";
 import PlayButton from '../assets/styles/PlayButton.css';
 import Scroll from '../assets/styles/Scroll.css';
 import { Typing } from '../helpers/Typing';
@@ -13,6 +8,7 @@ import Services from '../components/sections/Services';
 import Client from '../components/sections/Client';
 import Testimonials from '../components/sections/Testimonials';
 import Subscribe from '../components/common/Subscribe';
+import SocialMedias from '../components/common/SocialMedias';
 
 
 function Homepage() {
@@ -32,13 +28,7 @@ function Homepage() {
                 <div className="video-play-icon">
                   <FaPlay /> 
                 </div>
-                <div className="s-medias text-textcolor-secondary text-xl flex flex-row gap-2">
-                  <FaXTwitter />
-                  <RiFacebookBoxLine />
-                  <CiYoutube />
-                  <CiInstagram />
-                  <CiLinkedin />
-                </div>
+                  <SocialMedias />
               </div>
             </div>
           </div>
