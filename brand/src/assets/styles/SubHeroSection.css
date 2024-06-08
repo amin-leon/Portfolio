@@ -1,0 +1,10 @@
+.subhero-content{
+    height: 300px;
+    background-image: url(../images/hero-background.jpg);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+}

@@ -7,7 +7,7 @@ function NavBar() {
       <Wrapper>
       <div className="links flex justify-between flex-row">
         <div className="flex justify-center items-center">
-          <h6 className="text-5xl text-textcolor-secondary font-extrabold">NP Leon</h6>
+          <h6 className="text-3xl text-textcolor-secondary font-extrabold">NP Leon</h6>
         </div>
         <div className="menus-login flex gap-10">
           <div className="menus flex items-center gap-1 p-3">
