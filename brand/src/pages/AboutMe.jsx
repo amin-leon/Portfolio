@@ -59,9 +59,9 @@ const AboutPage = () => {
             <div className="background">
                 <div className="selectors py-10 text-gray-500 flex justify-center items-center gap-5"> 
                   <button onClick={() => handleSelect('select-1')} className={`px-4 py-2 rounded-sm hover:text-white ${getButtonClass('select-1')}`}>Education</button>
-                  <button onClick={() => handleSelect('select-2')} className={`px-4 py-2 rounded-sm hover:text-white ${getButtonClass('select-2')}`}>Work</button>
-                  <button onClick={() => handleSelect('select-3')} className={`px-4 py-2 rounded-sm hover:text-white ${getButtonClass('select-3')}`}>Experience</button>
-                  <button onClick={() => handleSelect('select-4')} className={`px-4 py-2 rounded-sm hover:text-white ${getButtonClass('select-4')}`}>Courses</button>
+                  <button onClick={() => handleSelect('select-2')} className={`px-4 py-2 rounded-sm hover:text-white ${getButtonClass('select-2')}`}>Experience</button>
+                  <button onClick={() => handleSelect('select-3')} className={`px-4 py-2 rounded-sm hover:text-white ${getButtonClass('select-3')}`}>Hobbies</button>
+                  <button onClick={() => handleSelect('select-4')} className={`px-4 py-2 rounded-sm hover:text-white ${getButtonClass('select-4')}`}>Travels&Hiking</button>
                   <button onClick={() => handleSelect('select-5')} className={`px-4 py-2 rounded-sm hover:text-white ${getButtonClass('select-5')}`}>Community</button>
                 </div>
                 <div>

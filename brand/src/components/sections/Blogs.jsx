@@ -6,7 +6,7 @@ const blogs = [
     {
       blogImage: "https://th.bing.com/th/id/OIP.vgqihX-UnkNHEe2pnzNAaQAAAA?rs=1&pid=ImgDetMain",
       blogTitle: "Ty Dolla $ign - Happy birthday twin 💕 | Facebook",
-      blogDesc: "Rapper Ty Dolla $ign, birth name Tyrone William Griffin Jr., isn't only a world-renowned recording artist, but he's a proud dad. Ty Dolla $ign is a devoted dad to his daughter Jailynn. It's unclear exactly who Jailynn's mom is, but her star dad is very devoted to his daughter. He often brings her to red-carpet events and shares sweet messages about her on his social media accounts.",
+      blogDesc: "Rapper Ty Dolla $ign, birth name Tyrone William Griffin Jr., isn't only a world about her on his social media accounts.",
       likes: 7,
       comments: 10
     },
@@ -35,7 +35,6 @@ function Blogs() {
                     <div className="blogs-container grid grid-cols-4 gap-3 py-5">
                         <div className="blogs-list col-span-3">
                             <div className="lists">
-                                {/* <BlogCard /> */}
                                 {blogs.map((blog, index) => (
                                     <BlogCard
                                     key={index}
@@ -52,10 +51,10 @@ function Blogs() {
                             <input type="text" placeholder="Search ......" className="px-5 py-2 focus:outline-none rounded-sm"/>
                             <div className="categories text-textcolor-secondary p-3">
                                 <div className="py-5 text-xl font-bold">Categories:</div>
-                                <div className="py-3 bg-secondary-alertenative rounded-sm px-2 mt-1">Technology</div>
-                                <div className="py-3 bg-secondary-alertenative rounded-sm px-2 mt-3">News</div>
-                                <div className="py-3 bg-secondary-alertenative rounded-sm px-2 mt-3">Artificial intelligence</div>
-                                <div className="py-3 bg-secondary-alertenative rounded-sm px-2 mt-3">Mobile development</div>
+                                <div className="py-3 bg-secondary-alertenative rounded-sm px-2 mt-1 cursor-pointer">Technology</div>
+                                <div className="py-3 bg-secondary-alertenative rounded-sm px-2 mt-3 cursor-pointer">News</div>
+                                <div className="py-3 bg-secondary-alertenative rounded-sm px-2 mt-3 cursor-pointer">Artificial intelligence</div>
+                                <div className="py-3 bg-secondary-alertenative rounded-sm px-2 mt-3 cursor-pointer">Mobile development</div>
                             </div>
                         </div>
                     </div>

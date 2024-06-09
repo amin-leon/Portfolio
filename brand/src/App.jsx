@@ -5,6 +5,7 @@ import Layout from './components/layout/Layout';
 import './App.css';
 import ErrorPage from './errors/route-error/error-page';
 import Blogs from './components/sections/Blogs';
+import BlogDetails from './components/sections/BlogDetails';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path="/" element={<Homepage />} />
           <Route path="/aboutme" element={<AboutPage />} />
           <Route path="/blogs" element={<Blogs />} />
+          <Route path="/blogs/:id" element={<BlogDetails />} />
           <Route path="/error"  errorElement={<ErrorPage />}/>
         </Routes>
       </Layout>
