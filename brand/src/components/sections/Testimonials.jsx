@@ -37,14 +37,14 @@ function Testimonials() {
                                         <span className='text-3xl text-blue-300'><RiDoubleQuotesL /></span>
                                         <p className='text-textcolor-primary'>
                                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                            when an unknown printer took a galley of type and scrambled it 
+                                            Lorem Ipsum has been the industry's standard dummy text
                                         </p>
                                         <span className='text-3xl text-blue-300'><RiDoubleQuotesR /></span>
                                 </div>
-                                <div className=''>
+                                <div className='flex justify-center items-center gap-2 flex-col'>
                                     <h1 className='font-bold text-textcolor-primary'>Innox Muragijimana</h1>
                                     <p className='font-bold text-textcolor-secondary text-sm'>Cofounder- Evotech</p>
+                                    <img src="https://plus.unsplash.com/premium_photo-1710911198710-3097c518f0e1?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" className='w-16 h-16 rounded-full text-center'/>
                                 </div>
                             </div>
                             <div className="cards h-96 p-10 flex items-center flex-col gap-3 bg-primary-main rounded-md">
@@ -52,14 +52,14 @@ function Testimonials() {
                                         <span className='text-3xl text-blue-300'><RiDoubleQuotesL /></span>
                                         <p className='text-textcolor-primary'>
                                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                            when an unknown printer took a galley of type and scrambled it 
+                                            Lorem Ipsum has been the industry's standard dummy text
                                         </p>
                                         <span className='text-3xl text-blue-300'><RiDoubleQuotesR /></span>
                                 </div>
-                                <div className=''>
+                                <div className='flex justify-center items-center gap-2 flex-col'>
                                     <h1 className='font-bold text-textcolor-primary'>Innox Muragijimana</h1>
                                     <p className='font-bold text-textcolor-secondary text-sm'>Cofounder- Evotech</p>
+                                    <img src="https://plus.unsplash.com/premium_photo-1710911198710-3097c518f0e1?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" className='w-16 h-16 rounded-full text-center'/>
                                 </div>
                             </div>
                             <div className="cards h-96 p-10 flex items-center flex-col gap-3 bg-primary-main rounded-md">
@@ -67,14 +67,14 @@ function Testimonials() {
                                         <span className='text-3xl text-blue-300'><RiDoubleQuotesL /></span>
                                         <p className='text-textcolor-primary'>
                                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                            when an unknown printer took a galley of type and scrambled it 
+                                            Lorem Ipsum has been the industry's standard dummy text
                                         </p>
                                         <span className='text-3xl text-blue-300'><RiDoubleQuotesR /></span>
                                 </div>
-                                <div className=''>
+                                <div className='flex justify-center items-center gap-2 flex-col'>
                                     <h1 className='font-bold text-textcolor-primary'>Innox Muragijimana</h1>
                                     <p className='font-bold text-textcolor-secondary text-sm'>Cofounder- Evotech</p>
+                                    <img src="https://plus.unsplash.com/premium_photo-1710911198710-3097c518f0e1?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" className='w-16 h-16 rounded-full text-center'/>
                                 </div>
                             </div>
                         </div>
@@ -86,14 +86,14 @@ function Testimonials() {
                                         <span className='text-3xl text-blue-300'><RiDoubleQuotesL /></span>
                                         <p className='text-textcolor-primary'>
                                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                            when an unknown printer took a galley of type and scrambled it 
+                                            Lorem Ipsum has been the industry's standard dummy text
                                         </p>
                                         <span className='text-3xl text-blue-300'><RiDoubleQuotesR /></span>
                                 </div>
-                                <div className=''>
+                                <div className='flex justify-center items-center gap-2 flex-col'>
                                     <h1 className='font-bold text-textcolor-primary'>Innox Muragijimana</h1>
                                     <p className='font-bold text-textcolor-secondary text-sm'>Cofounder- Evotech</p>
+                                    <img src="https://plus.unsplash.com/premium_photo-1710911198710-3097c518f0e1?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" className='w-16 h-16 rounded-full text-center'/>
                                 </div>
                             </div>
                             <div className="cards h-96 p-10 flex items-center flex-col gap-3 bg-primary-main rounded-md">
@@ -101,14 +101,14 @@ function Testimonials() {
                                         <span className='text-3xl text-blue-300'><RiDoubleQuotesL /></span>
                                         <p className='text-textcolor-primary'>
                                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                            when an unknown printer took a galley of type and scrambled it 
+                                            Lorem Ipsum has been the industry's standard dummy text 
                                         </p>
                                         <span className='text-3xl text-blue-300'><RiDoubleQuotesR /></span>
                                 </div>
-                                <div className=''>
+                                <div className='flex justify-center items-center gap-2 flex-col'>
                                     <h1 className='font-bold text-textcolor-primary'>Innox Muragijimana</h1>
                                     <p className='font-bold text-textcolor-secondary text-sm'>Cofounder- Evotech</p>
+                                    <img src="https://plus.unsplash.com/premium_photo-1710911198710-3097c518f0e1?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" className='w-16 h-16 rounded-full text-center'/>
                                 </div>
                             </div>
                             <div className="cards h-96 p-10 flex items-center flex-col gap-3 bg-primary-main rounded-md">
@@ -116,14 +116,14 @@ function Testimonials() {
                                         <span className='text-3xl text-blue-300'><RiDoubleQuotesL /></span>
                                         <p className='text-textcolor-primary'>
                                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                            when an unknown printer took a galley of type and scrambled it 
+                                            Lorem Ipsum has been the industry's standard dummy text ever
                                         </p>
                                         <span className='text-3xl text-blue-300'><RiDoubleQuotesR /></span>
                                 </div>
-                                <div className=''>
+                                <div className='flex justify-center items-center gap-2 flex-col'>
                                     <h1 className='font-bold text-textcolor-primary'>Innox Muragijimana</h1>
                                     <p className='font-bold text-textcolor-secondary text-sm'>Cofounder- Evotech</p>
+                                    <img src="https://plus.unsplash.com/premium_photo-1710911198710-3097c518f0e1?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" className='w-16 h-16 rounded-full text-center'/>
                                 </div>
                             </div>
                         </div>
