@@ -28,7 +28,7 @@ const AboutPage = () => {
   };
 
   const getButtonClass = (option) => {
-    return selected === option ? 'bg-blue-500' : '';
+    return selected === option ? 'bg-blue-500 text-white' : '';
   };
 
   return (

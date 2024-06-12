@@ -1,6 +1,6 @@
-import BlogCard from "../../helpers/BlogCard"
-import SubHeroSection from "../../helpers/SubHeroSection"
-import Wrapper from "../../helpers/Wrapper"
+import BlogCard from "../helpers/BlogCard"
+import SubHeroSection from "../helpers/SubHeroSection"
+import Wrapper from "../helpers/Wrapper"
 
 const blogs = [
     {
